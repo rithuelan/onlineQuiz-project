@@ -53,7 +53,7 @@ public class Main {
         quizData.put("python", new HashMap<>());
         quizData.put("c", new HashMap<>());
         quizData.put("c++", new HashMap<>());
-        quizData.put("javascript", new HashMap<>());
+        quizData.put("js", new HashMap<>());
 
         // Java Questions
         quizData.get("java").put("easy", Arrays.asList(
@@ -128,21 +128,21 @@ public class Main {
         ));
         
         // JavaScript Questions
-        quizData.get("javascript").put("easy", Arrays.asList(
+        quizData.get("js").put("easy", Arrays.asList(
             new Question("Which keyword declares a variable in JavaScript?", "A. var", "B. let", "C. const", "D. all of the above", "D"),
             new Question("Which function prints output in JavaScript?", "A. display()", "B. log()", "C. console.log()", "D. print()", "C"),
             new Question("How do you create an array in JavaScript?", "A. []", "B. {}", "C. ()", "D. <>", "A"),
             new Question("Which symbol denotes a single-line comment in JavaScript?", "A. //", "B. #", "C. --", "D. $$", "A"),
             new Question("What does 'typeof' return for an array?", "A. array", "B. object", "C. list", "D. undefined", "B")
         ));
-        quizData.get("javascript").put("medium", Arrays.asList(
+        quizData.get("js").put("medium", Arrays.asList(
             new Question("Which event occurs when the user clicks on an element?", "A. click", "B. hover", "C. focus", "D. activate", "A"),
             new Question("How do you check if a variable is 'undefined' in JavaScript?", "A. typeof x === 'undefined'", "B. x == null", "C. x.empty", "D. x === false", "A"),
             new Question("What does JSON stand for?", "A. JavaScript Object Notation", "B. Java System Object Name", "C. Java Serialized Object Network", "D. JavaScript Ordered Nodes", "A"),
             new Question("Which method converts a string into an integer?", "A. parseInt()", "B. parseFloat()", "C. int()", "D. strToInt()", "A"),
             new Question("Which function is used to execute code after a delay?", "A. setTimeout()", "B. delay()", "C. wait()", "D. timeout()", "A")
         ));
-        quizData.get("javascript").put("hard", Arrays.asList(
+        quizData.get("js").put("hard", Arrays.asList(
             new Question("Which JavaScript function is used to execute code at specific intervals?", "A. setTimeout()", "B. setInterval()", "C. timer()", "D. wait()", "B"),
             new Question("What is closure in JavaScript?", "A. A function inside another function", "B. A class method", "C. A hidden variable", "D. A function that remembers its scope", "D"),
             new Question("Which JavaScript feature allows asynchronous execution?", "A. Promises", "B. Callbacks", "C. Async/Await", "D. All of the above", "D"),
