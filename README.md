@@ -7,9 +7,9 @@ This is a sample web application that demonstrates Online Quiz Competition Syste
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/rithuelan/onlineQuiz-project.git
+   https://github.com/rithuelan/onlineQuiz-project.git
 
-   cd onlineQuiz-project.java
+  
 
 ## Features
 1.User-friendly interface for quiz creation and participation.
